@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Typing Window</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <div class="task1">
+        <input type="text" id="inputText" placeholder="Text">
+        <p>Typed Text: <span id="displayText"></span></p>
+    </div>
+
+    <div class="task2">
+        <div class="container">
+            <h2>Validator Game</h2>
+            <form id="myForm">
+                <label>Name:</label>
+                <input type="text" id="name">
+                <p class="error" id="nameError">Name is required.</p>
+        
+                <label>Email:</label>
+                <input type="email" id="email">
+                <p class="error" id="emailError">Email is not valid.</p>
+        
+                <label>Password:</label>
+                <input type="password" id="password">
+                <p class="error" id="passwordError">Password must be at least 8 characters.</p>
+        
+                <label>Gender:</label>
+                <div class="checkbox-group">
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </div>
+                <p class="error" id="genderError">Please select your gender.</p>
+        
+                <label>Sports:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" class="sports" value="Tennis"> Tennis
+                    <input type="checkbox" class="sports" value="Running"> Running
+                    <input type="checkbox" class="sports" value="Football"> Football
+                </div>
+                <p class="error" id="sportsError">Please select at least two sports.</p>
+        
+                <label>Country:</label>
+                <select id="country">
+                    <option value="">Select your country</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                </select>
+                <p class="error" id="countryError">Please select your country.</p>
+        
+                <div class="buttons">
+                    <button type="submit" class="submit">Submit</button>
+                    <button type="reset" class="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- <div class="task3">
+        <h2>Traffic Game</h2>
+    
+        <div class="traffic-light">
+            <div id="red" class="light" style="background-color: red;"></div>
+            <div id="yellow" class="light"></div>
+            <div id="green" class="light"></div>
+        </div>
+        
+        <p id="status" class="status-text">Stop</p>
+    </div> -->
+
+
+
+    
+    <!-- <div class="task4">
+        <p>Press any key Please : </p>
+    </div>  -->
+
+    <div class="task5">
+        <p>Right click disabled</p>
+    </div>
+
+    
+    <script src="JS/main.js"></script>
+</body>
+</html>
